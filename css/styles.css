@@ -1,0 +1,62 @@
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat;
+}
+
+a{
+    font-family: Montserrat;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* =======================HEADER========================== */
+
+.header-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-a {
+    display: flex;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    color: #111111;
+
+}
+
+.burger-btn{
+    border: 0;
+    background-color: #fff;
+    margin-right: 20px;
+    margin-top: 20px;
+}
