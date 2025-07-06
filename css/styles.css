@@ -9,11 +9,13 @@ p {
 }
 
 a{
+    text-decoration: none;
     font-family: Montserrat;
 }
 
 ul,
 ol {
+    list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -59,4 +61,94 @@ img {
     background-color: #fff;
     margin-right: 20px;
     margin-top: 20px;
+    transition: fill 250ms linear;
 }
+
+.burger-btn:hover,
+.burger-btn:focus{
+fill: #FD9222;
+}
+
+/* =================MODAL-MOBILE=============== */
+.modal-mobile{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 999999999;
+background-color: #1E1823;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms linear;
+}
+
+.modal-mobile.is-open{
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+}
+
+
+.close-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 0;
+    background-color: #1E1823;
+    stroke: #FFFFFF;
+    transition: stroke 250ms linear;
+}
+
+.close-btn:hover,
+.close-btn:focus{
+    stroke: #FD9222;
+}
+
+.link-mobile{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        vertical-align: middle;
+        transition: color 250ms linear;
+        
+    color: #fff;
+}
+
+.ul-link-mobile{
+    width: 100%;
+    padding: 136px 48px;
+
+}
+
+.li-mobile-link{
+    margin-bottom: 24px;
+}
+
+.link-mobile:hover,
+.link-mobile:focus{
+    color: #FD9222;
+}
+
+.ul-svg-mobile{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex
+}
+
+.svg-mobile{
+ margin-right: 18px;   
+    fill: none;
+    stroke: #FFFFFF;
+    transition: stroke 250ms linear;
+}
+
+.svg-mobile:hover,
+.svg-mobile:focus{
+    stroke: #FD9222;
+}
+
+
+/* =================/MODAL-MOBILE=============== */
