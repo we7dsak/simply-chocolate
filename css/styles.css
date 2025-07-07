@@ -26,6 +26,10 @@ img {
     max-width: 100%;
 }
 
+button{
+    cursor: pointer;
+}
+
 .container {
     max-width: 360px;
     margin-left: auto;
@@ -38,6 +42,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 14px;
 }
 
 .logo-a {
@@ -152,3 +157,84 @@ background-color: #1E1823;
 
 
 /* =================/MODAL-MOBILE=============== */
+/* =======================/HEADER========================== */
+/* =======================MAIN========================= */
+.hero{
+    display: flex;
+    justify-content: flex-end;
+        flex-wrap: wrap;
+        flex-direction: column;
+   padding-left: 20px;
+   padding-right: 20px;
+    border-radius: 30px;
+        width: 335px;
+        height: 620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#FD9222;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.5),rgba(17, 17, 17, 0.5));
+    background-image: url(/images/chocolate-hero.jpg);
+    color: #fff;
+
+}
+
+.hero-text{
+    max-width: 299px;
+    height: 72px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        margin-bottom: 32px;
+}
+
+.btn-hero-one{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    border: none;
+    background-color: #FD9222;
+    color: #fff;
+    border-radius: 100px;
+        padding: 12px 28px;
+        width: 120px;
+        height: 41px;
+}
+
+.btn-hero-two{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    border: 1px solid #fff;
+        border-radius: 100px;
+        padding: 12px 28px;
+        width: 159px;
+        height: 41px;
+
+
+    background-color: transparent;
+    color: #fff;
+
+}
+
+.hero-scroll{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 32px;
+    margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: -0.03em;
+        color: #fff;
+}
+
+.svg-hero{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #fff;
+}
