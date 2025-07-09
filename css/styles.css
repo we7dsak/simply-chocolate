@@ -120,6 +120,7 @@ stroke: #FD9222;
 }
 
 /* =====================ADAPTIVE-HEADER==================== */
+/* =======================adaptive-tablet================= */
 @media screen and (min-width: 767.98px ) {
     .container{
         max-width: 768px;
@@ -127,6 +128,7 @@ stroke: #FD9222;
 
     .header-div{
             margin-top: 24px;
+            margin-bottom: 32px;
     }
 
     .burger-btn{
@@ -144,16 +146,32 @@ stroke: #FD9222;
 
         .ul-link-header{
             display: flex;
+            align-items: center;
 gap: 24px;
             }
 
     .ul-svg-header{
         display: flex;
+        align-items: center;
         gap: 18px;
         margin-right: 32px;
+        padding-left: 48px;
         
     }
+
+        .div-ul-svg-header {
+            display: flex;
+        }
+    }
+/* =======================/adaptive-tablet================= */
+/* =======================adaptive-desptop================= */
+@media screen and (min-width: 1023.98px) {
+    .container {
+            max-width: 1200px;
+        }
+
 }
+/* =======================/adaptive-desptop================= */
 /* =====================/ADAPTIVE-HEADER==================== */
 /* =================MODAL-MOBILE=============== */
 .modal-mobile{
